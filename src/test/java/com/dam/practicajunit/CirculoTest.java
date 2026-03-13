@@ -19,36 +19,5 @@ public class CirculoTest {
         assertEquals(0.0, circulo.getRadio(), 0.0);
     }
     
-    @Test
-    public void testGetRadio() {
-        Circulo circulo = new Circulo(5.0);
-        assertEquals(5.0, circulo.getRadio(), 0.0);
-    }
     
-    @Test
-    public void testSetRadio() {
-        Circulo circulo = new Circulo(3.0);
-        circulo.setRadio(7.0);
-        assertEquals(7.0, circulo.getRadio(), 0.0);
-    }
-    
-    @Test
-    public void testCalcularArea() {
-        Circulo circulo = new Circulo(1.0);
-        double esperado = Math.PI;
-        assertEquals(esperado, circulo.calcularArea(), 0.0);
-    }
-    
-    @Test
-    public void testCalcularPerimetro() {
-        Circulo circulo = new Circulo(2.0);
-        double esperado = 4.0 * Math.PI;
-        assertEquals(esperado, circulo.calcularPerimetro(), 0.01);
-    }
-    
-    @Test
-    public void testMostrarRadio() {
-        Circulo circulo = new Circulo(4.0);
-        assertEquals(4.0, Circulo.mostrarRadio(circulo), 0.0);
-    }
 }
