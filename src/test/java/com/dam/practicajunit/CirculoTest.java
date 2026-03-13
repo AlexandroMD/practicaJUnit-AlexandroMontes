@@ -26,4 +26,9 @@ public class CirculoTest {
         assertEquals(7.0, circulo.getRadio(), 0.0);
     }
     
+    @Test
+    public void testGetRadio() {
+        Circulo circulo = new Circulo(5.0);
+        assertEquals(5.0, circulo.getRadio(), 0.0);
+    }
 }
