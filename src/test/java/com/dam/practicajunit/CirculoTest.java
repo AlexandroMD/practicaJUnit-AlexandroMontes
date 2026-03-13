@@ -51,4 +51,11 @@ public class CirculoTest {
         Circulo circulo = new Circulo(4.0);
         assertEquals(4.0, Circulo.mostrarRadio(circulo), 0.0);
     }
+    
+    @Test
+    public void testMayorCirculo() {
+        Circulo circulo1 = new Circulo(5.0);
+        Circulo circulo2 = new Circulo(8.0);
+        assertEquals(circulo2, Circulo.mayorCirculo(circulo1, circulo2));
+    }
 }
