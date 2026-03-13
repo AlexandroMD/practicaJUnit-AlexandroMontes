@@ -31,4 +31,11 @@ public class CirculoTest {
         Circulo circulo = new Circulo(5.0);
         assertEquals(5.0, circulo.getRadio(), 0.0);
     }
+    
+    @Test
+    public void testCalcularArea() {
+        Circulo circulo = new Circulo(1.0);
+        double esperado = Math.PI;
+        assertEquals(esperado, circulo.calcularArea(), 0.0);
+    }
 }
