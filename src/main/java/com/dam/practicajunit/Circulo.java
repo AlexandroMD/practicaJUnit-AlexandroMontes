@@ -80,6 +80,22 @@ public class Circulo {
     public static double mostrarRadio(Circulo circulito) {
         return circulito.radio;
     }
+<<<<<<< HEAD
+=======
+     /**
+     * 
+     * @param circulo1,  objeto de tipo Circulo
+     * @param circulo2,  objeto de tipo Circulo
+     * @return devuelve el objeto de tipo Circulo  que sea mayor
+     */
+    public static Circulo mayorCirculo(Circulo circulo1, Circulo circulo2) {
+        if (circulo1.radio >= circulo2.radio) {
+            return circulo1;
+        } else {
+            return circulo2;
+        }
+    }
+>>>>>>> feature/circuloMayor
 
     
 }

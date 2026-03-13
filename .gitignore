@@ -1,0 +1,13 @@
+# Carpeta de compilación
+target/
+
+# Archivos compilados
+*.class
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
