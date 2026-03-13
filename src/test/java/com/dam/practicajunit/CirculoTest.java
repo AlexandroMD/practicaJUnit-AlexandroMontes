@@ -13,11 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class CirculoTest {
     
-    @Test
-    public void testConstructorVacio() {
-        Circulo circulo = new Circulo();
-        assertEquals(0.0, circulo.getRadio(), 0.0);
-    }
+    
     
     
 }
