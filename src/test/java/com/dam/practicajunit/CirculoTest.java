@@ -19,5 +19,11 @@ public class CirculoTest {
         assertEquals(0.0, circulo.getRadio(), 0.0);
     }
     
+    @Test
+    public void testSetRadio() {
+        Circulo circulo = new Circulo(3.0);
+        circulo.setRadio(7.0);
+        assertEquals(7.0, circulo.getRadio(), 0.0);
+    }
     
 }
