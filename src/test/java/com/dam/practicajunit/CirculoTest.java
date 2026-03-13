@@ -45,4 +45,10 @@ public class CirculoTest {
         double esperado = 4.0 * Math.PI;
         assertEquals(esperado, circulo.calcularPerimetro(), 0.01);
     }
+    
+    @Test
+    public void testMostrarRadio() {
+        Circulo circulo = new Circulo(4.0);
+        assertEquals(4.0, Circulo.mostrarRadio(circulo), 0.0);
+    }
 }
