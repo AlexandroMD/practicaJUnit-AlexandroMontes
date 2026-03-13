@@ -38,4 +38,11 @@ public class CirculoTest {
         double esperado = Math.PI;
         assertEquals(esperado, circulo.calcularArea(), 0.0);
     }
+    
+    @Test
+    public void testCalcularPerimetro() {
+        Circulo circulo = new Circulo(2.0);
+        double esperado = 4.0 * Math.PI;
+        assertEquals(esperado, circulo.calcularPerimetro(), 0.01);
+    }
 }
