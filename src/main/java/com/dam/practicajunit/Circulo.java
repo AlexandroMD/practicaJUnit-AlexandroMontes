@@ -80,8 +80,6 @@ public class Circulo {
     public static double mostrarRadio(Circulo circulito) {
         return circulito.radio;
     }
-<<<<<<< HEAD
-=======
      /**
      * 
      * @param circulo1,  objeto de tipo Circulo
@@ -95,7 +93,6 @@ public class Circulo {
             return circulo2;
         }
     }
->>>>>>> feature/circuloMayor
 
     
 }
